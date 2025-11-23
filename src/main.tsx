@@ -6,12 +6,11 @@ import {
 } from "react-router-dom";
 
 import RootLayout from "./app/layout/RootLayout";
-import IndexPage from "./app/routes/index";
 import AboutPage from "./app/routes/about";
 import PostPage from "./app/routes/posts/$slug";
 
 import "./index.css";
-import Home from "./pages/home";
+import Home from "./pages/Home";
 
 // 라우터 설정
 // GitHub Pages 배포 시 repository 이름에 맞게 basename 설정
